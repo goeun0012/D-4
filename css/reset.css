@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+* {margin: 0; padding: 0; box-sizing: border-box;}
+a {text-decoration: none; color: inherit;}
+ul, li {list-style: none;}
+
+body {
+    background-color: #fff;
+    color: #333;
+    font-family: "돋움";
+    font-size: 16px;
+}
+
+.clear_fix::before,
+.clear_fix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+img {
+    vertical-align: bottom;
+}
+
+table {
+    border-collapse: collapse;
+}
